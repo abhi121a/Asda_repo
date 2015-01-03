@@ -47,7 +47,7 @@ public class Test_login_user {
 	 //(priority=2)
 	// ( enabled=false)
 	  public void login_test() {
-		  obj1.sign_in_user("abhi11@wipro.com", "wipro@123");
+		  obj1.sign_in_user("abhi5678@wipro.com", "wipro@123");
 		  
 		  
 	  }
