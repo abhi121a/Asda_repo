@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.asda.groceries.testngscripts.Test_login_user">
+        <methods>
+          <include name="setup"/>
+          <include name="login_test"/>
+          <include name="unset"/>
+          <include name="test_setup"/>
+        </methods>
+      </class> <!-- com.asda.groceries.testngscripts.Test_login_user -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

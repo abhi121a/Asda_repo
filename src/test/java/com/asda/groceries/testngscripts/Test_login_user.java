@@ -2,6 +2,9 @@ package com.asda.groceries.testngscripts;
 
 import java.util.concurrent.TimeUnit;
 
+import junit.framework.Assert;
+
+import org.apache.http.util.Asserts;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
@@ -48,6 +51,7 @@ public class Test_login_user {
 	// ( enabled=false)
 	  public void login_test() {
 		  obj1.sign_in_user("abhi5678@wipro.com", "wipro@123");
+		  Assert.assertEquals("true", "false");
 		  
 		  
 	  }
