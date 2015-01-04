@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12941" started-at="2015-01-03T22:48:12Z" finished-at="2015-01-03T22:48:25Z">
+  <suite name="Default suite" duration-ms="17227" started-at="2015-01-04T08:33:31Z" finished-at="2015-01-04T08:33:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12941" started-at="2015-01-03T22:48:12Z" finished-at="2015-01-03T22:48:25Z">
+    <test name="Default test" duration-ms="17227" started-at="2015-01-04T08:33:31Z" finished-at="2015-01-04T08:33:49Z">
       <class name="com.asda.groceries.testngscripts.Test_login_user">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.asda.groceries.testngscripts.Test_login_user@56aeecff]" name="setup" is-config="true" duration-ms="10707" started-at="2015-01-04T04:18:01Z" finished-at="2015-01-04T04:18:12Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.asda.groceries.testngscripts.Test_login_user@87c06e0]" name="setup" is-config="true" duration-ms="10543" started-at="2015-01-04T14:03:21Z" finished-at="2015-01-04T14:03:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_setup()[pri:0, instance:com.asda.groceries.testngscripts.Test_login_user@56aeecff]" name="test_setup" is-config="true" duration-ms="9345" started-at="2015-01-04T04:18:12Z" finished-at="2015-01-04T04:18:21Z">
+        <test-method status="PASS" signature="test_setup()[pri:0, instance:com.asda.groceries.testngscripts.Test_login_user@87c06e0]" name="test_setup" is-config="true" duration-ms="13716" started-at="2015-01-04T14:03:31Z" finished-at="2015-01-04T14:03:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_setup -->
-        <test-method status="FAIL" signature="login_test()[pri:0, instance:com.asda.groceries.testngscripts.Test_login_user@56aeecff]" name="login_test" duration-ms="3515" started-at="2015-01-04T04:18:22Z" finished-at="2015-01-04T04:18:25Z">
+        <test-method status="FAIL" signature="login_test()[pri:0, instance:com.asda.groceries.testngscripts.Test_login_user@87c06e0]" name="login_test" duration-ms="3446" started-at="2015-01-04T14:03:45Z" finished-at="2015-01-04T14:03:48Z">
           <exception class="junit.framework.ComparisonFailure">
             <message>
               <![CDATA[expected:<tru...> but was:<fals...>]]>
@@ -55,23 +55,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_test -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.asda.groceries.testngscripts.Test_login_user@56aeecff]" name="test1" duration-ms="10" started-at="2015-01-04T04:18:25Z" finished-at="2015-01-04T04:18:25Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.asda.groceries.testngscripts.Test_login_user@87c06e0]" name="test1" duration-ms="21" started-at="2015-01-04T14:03:48Z" finished-at="2015-01-04T14:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.asda.groceries.testngscripts.Test_login_user@56aeecff]" name="test2" duration-ms="2" started-at="2015-01-04T04:18:25Z" finished-at="2015-01-04T04:18:25Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.asda.groceries.testngscripts.Test_login_user@87c06e0]" name="test2" duration-ms="2" started-at="2015-01-04T14:03:48Z" finished-at="2015-01-04T14:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:com.asda.groceries.testngscripts.Test_login_user@56aeecff]" name="test3" duration-ms="2" started-at="2015-01-04T04:18:25Z" finished-at="2015-01-04T04:18:25Z">
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.asda.groceries.testngscripts.Test_login_user@87c06e0]" name="test3" duration-ms="2" started-at="2015-01-04T14:03:48Z" finished-at="2015-01-04T14:03:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:com.asda.groceries.testngscripts.Test_login_user@56aeecff]" name="test4" duration-ms="3" started-at="2015-01-04T04:18:25Z" finished-at="2015-01-04T04:18:25Z">
+        <test-method status="PASS" signature="test4()[pri:0, instance:com.asda.groceries.testngscripts.Test_login_user@87c06e0]" name="test4" duration-ms="2" started-at="2015-01-04T14:03:49Z" finished-at="2015-01-04T14:03:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="unset()[pri:0, instance:com.asda.groceries.testngscripts.Test_login_user@56aeecff]" name="unset" is-config="true" duration-ms="2236" started-at="2015-01-04T04:18:25Z" finished-at="2015-01-04T04:18:27Z">
+        <test-method status="PASS" signature="unset()[pri:0, instance:com.asda.groceries.testngscripts.Test_login_user@87c06e0]" name="unset" is-config="true" duration-ms="3040" started-at="2015-01-04T14:03:49Z" finished-at="2015-01-04T14:03:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unset -->
